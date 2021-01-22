@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ControlJugador.cs" />
+    <Compile Include="Assets\Scripts\SigueAlJugador.cs" />
     <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>D:/GitHub/Unity/Juego-1-Unity/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
