@@ -5,6 +5,8 @@ using UnityEngine;
 public class SigueAlJugador : MonoBehaviour
 {
     public GameObject Jugador;
+
+    private Vector3 Desplazamiento = new Vector3(0,6,-9);
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +16,6 @@ public class SigueAlJugador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Jugador.transform.position + new Vector3(0,6,-9);
+        transform.position = Jugador.transform.position + Desplazamiento;
     }
 }
